@@ -46,21 +46,21 @@ const preguntasLeccion2 = [
 
 
 const preguntasLeccion3 = [
-    { pregunta: "hola"},
-    { pregunta: ""},
-    { pregunta: ""},
-    { pregunta: ""},
-    { pregunta: ""},
-    { pregunta: ""},
-    { pregunta: ""},
-    { pregunta: ""},
-    { pregunta: ""},
-    { pregunta: ""},
-    { pregunta: ""},
-    { pregunta: ""},
-    { pregunta: ""},
-    { pregunta: ""},
-    { pregunta: ""}
+    { pregunta: "¿Qué es una cápsula farmacéutica?", opciones:{ a: "Un instrumento quirúrgico", b: "Una forma farmacéutica que contiene medicamento dentro de una cubierta", c: "Un tipo de vacuna", d: "Un análisis clínico"}, correcta: "b", retro: "Una cápsula farmacéutica es una forma de administración que contiene un medicamento dentro de una cubierta soluble." },
+    { pregunta: "¿Qué es un jarabe medicinal?", opciones:{ a: "Un medicamento líquido para administración oral", b: "Una crema para la piel", c: "Un medicamento intravenoso", d: "Un material de curación"}, correcta: "a", retro: "Un jarabe es una solución o suspensión líquida que contiene un medicamento y se administra por vía oral, generalmente con sabor dulce."},
+    { pregunta: "¿Qué es un supositorio?", opciones:{ a: "Un medicamento que se administra por vía rectal", b: "Un tipo de inyección", c: "Una tableta para disolver en agua", d: "Un medicamento para inhalar"}, correcta: "a", retro: "Un supositorio es una forma farmacéutica sólida que se introduce en el recto, donde se disuelve y libera el medicamento."},
+    { pregunta: "¿Qué es una suspensión farmacéutica?", opciones:{ a: "Una mezcla de sólidos y líquidos que no se disuelven completamente", b: "Un tipo de cápsula", c: "Un medicamento en forma de gel", d: "Una tableta efervescente"}, correcta: "a", retro: "Una suspensión es una mezcla heterogénea donde partículas sólidas están dispersas en un líquido, y no se disuelven completamente."},
+    { pregunta: "¿Para qué sirve una emulsión farmacéutica?", opciones:{ a: "Para mejorar la absorción de un medicamento", b: "Para facilitar la administración de líquidos", c: "Para crear una mezcla estable de dos líquidos que no se mezclan", d: "Para aumentar la solubilidad de un fármaco"}, correcta: "c", retro: "Una emulsión es una mezcla de dos líquidos que no se pueden disolver mutuamente, pero que están estabilizadas por un agente emulsionante."},
+    { pregunta: "¿Qué es una pomada?", opciones:{ a: "Un medicamento en forma de gel", b: "Un medicamento en forma de crema", c: "Un medicamento en forma de solución", d: "Un medicamento en forma de tableta"}, correcta: "b", retro: "Una pomada es un producto farmacéutico en forma de crema, generalmente utilizada para aplicaciones tópicas en la piel."},
+    { pregunta: "¿Qué es un aerosol medicinal?", opciones:{ a: "Un medicamento en forma de gas", b: "Un medicamento en forma de líquido", c: "Un medicamento en forma de polvo", d: "Un medicamento en forma de solución"}, correcta: "a", retro: "Un aerosol medicinal es una forma de administración que contiene el medicamento en estado gaseoso o como partículas suspendidas en un gas."},
+    { pregunta: "¿Qué es una solución farmacéutica?", opciones:{ a: "Una mezcla de sólidos y líquidos", b: "Un medicamento en forma de gel", c: "Un medicamento en forma de líquido", d: "Un medicamento en forma de tableta"}, correcta: "c", retro: "Una solución farmacéutica es una mezcla homogénea donde un fármaco está disuelto en un solvente, generalmente agua o alcohol."},
+    { pregunta: "¿Qué significa que un medicamento sea estéril?", opciones:{ a: "Que no contiene microorganismos vivos", b: "Que tiene un sabor dulce", c: "Que se administra por vía intravenosa", d: "Que no tiene efectos secundarios"}, correcta: "a", retro: "Un medicamento estéril está libre de microorganismos vivos, especialmente bacterias y hongos, para prevenir infecciones."},
+    { pregunta: "¿Qué es un medicamento fotosensible?", opciones:{ a: "Que se degrada al exponerse a la luz solar", b: "Que se administra por vía tópica", c: "Que se absorbe mejor con la luz solar", d: "Que no se puede almacenar en el refrigerador"}, correcta: "a", retro: "Los medicamentos fotosensibles son susceptibles a la degradación cuando están expuestos a la luz solar o a otras fuentes de radiación."},
+    { pregunta: "¿Qué es una forma farmacéutica de liberación inmediata?", opciones:{ a: "Que se libera completamente al instante de la administración", b: "Que se libera lentamente durante varias horas", c: "Que se libera después de un tiempo determinado", d: "Que se libera solo cuando el paciente lo solicita"}, correcta: "a", retro: "Una forma farmacéutica de liberación inmediata permite la rápida absorción del fármaco tras su administración."},
+    { pregunta: "¿Qué es un medicamento de liberación retardada?", opciones:{ a: "Que se libera completamente al instante de la administración", b: "Que se libera lentamente durante varias horas", c: "Que se libera después de un tiempo determinado", d:" Que se libera solo cuando el paciente lo solicita"}, correcta: "b", retro: "Los medicamentos con liberación retardada están diseñados para proporcionar una acción prolongada del fármaco."},
+    { pregunta: "¿Qué es un colirio?", opciones:{ a: "Un medicamento en forma de gotas para los ojos", b: "Un medicamento en forma de jarabe", c: "Un medicamento en forma de cápsula", d: "Un medicamento en forma de crema"}, correcta: "a", retro: "Un colirio es una solución estéril que se administra en los ojos para tratar diversas afecciones oculares."},
+    { pregunta: "¿Qué es una solución ótica?", opciones:{ a: "Un medicamento en forma de gotas para los ojos", b: "Un medicamento en forma de jarabe", c: "Un medicamento en forma de cápsula", d: "Un medicamento en forma de crema"}, correcta: "a", retro: "Una solución ótica es una preparación líquida que se administra directamente en el ojo para tratar diversas afecciones oculares."},
+    { pregunta: "¿Qué es una preparación nasal?", opciones:{ a: "Un medicamento en forma de gotas para la nariz", b: "Un medicamento en forma de jarabe", c: "Un medicamento en forma de cápsula", d: "Un medicamento en forma de crema"}, correcta: "a", retro: "Una preparación nasal es una formulación que se administra por vía nasal, generalmente en forma de spray o gotas."}
 ];
 
 function getDifficulty(lessonNumber) {
